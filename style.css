@@ -1,0 +1,145 @@
+/* Common CSS */
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+p {
+    color: dimgrey;
+}
+
+.pws-red-highlight {
+    color: #EC4E8B;
+}
+
+.pws-half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.pws-half-width img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pws-mr-top {
+    margin-top: 150px;
+}
+
+/* Top Banner Section */
+.pws-top-banner h1 {
+    font-size: 50px;
+    margin-top: -40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.pws-top-banner {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 800px;
+}
+
+.pws-link-button {
+    text-decoration: none;
+    /* background-image: linear-gradient(45deg, lightSalmon, tomato); */
+    background-color: #EC4C79;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+/* Biography Section */
+.pws-bio-area {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 800px;
+}
+
+.pws-single-experience {
+    box-shadow: 10px 20px 40px grey;
+    border-radius: 5px;
+    height: 70%;
+    background-color: #fff;
+}
+
+/* My latest Work Section */
+.pws-work-area {
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 500px;
+}
+
+.pws-work-area h2 {
+    text-align: center;
+}
+
+.pws-work-img-area, .pws-what-client-say-area {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.pws-latest-work {
+    width: 30%;
+    float: left;
+    margin-right: 3.3%;
+}
+
+.pws-latest-work img {
+    width: 100%;
+}
+
+/* What client Say Section */
+.pws-what-client-say-area {
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 700px;
+    text-align: center;
+}
+
+.pws-clients-review {
+    width: 40%;
+    margin: 0 auto;
+    padding: 30px 100px;
+}
+
+.pws-clients-review span {
+    font-size: 13px;
+    color: #707070;
+}
+
+.pws-contact-me-box {
+    background-color: #EC4B73;
+    width: 60%;
+    margin: 0 auto;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.pws-contact-me-box p {
+    color: #fff;
+}
+
+/* Footer Section */
+footer p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
