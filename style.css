@@ -46,7 +46,7 @@ p {
 .pws-top-banner {
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
-    background-size: conver;
+    background-size: cover;
     height: 800px;
 }
 
@@ -70,13 +70,6 @@ p {
     height: 800px;
 }
 
-.pws-single-experience {
-    box-shadow: 10px 20px 40px grey;
-    border-radius: 5px;
-    height: 70%;
-    background-color: #fff;
-}
-
 /* My latest Work Section */
 .pws-work-area {
     background-image: url("images/latest-work-bg.png");
@@ -89,7 +82,7 @@ p {
     text-align: center;
 }
 
-.pws-work-img-area, .pws-what-client-say-area {
+.pws-work-img-area {
     width: 70%;
     margin: 0 auto;
 }
@@ -102,6 +95,41 @@ p {
 
 .pws-latest-work img {
     width: 100%;
+}
+
+/* Experience Section */
+.pws-experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 600px;
+}
+
+.pws-experience-area h2 {
+    text-align: center;
+}
+
+#pws-full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1; 
+}
+
+#pws-baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+.pws-single-experience {
+    box-shadow: 10px 20px 40px grey;
+    border-radius: 5px;
+    height: 70%;
+    background-color: #fff;
+}
+
+.pws-single-experience.pws-half-width h2 {
+    text-align: left;
 }
 
 /* What client Say Section */
@@ -126,7 +154,7 @@ p {
 
 .pws-contact-me-box {
     background-color: #EC4B73;
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     color: #fff;
     padding: 30px;
@@ -140,6 +168,6 @@ p {
 /* Footer Section */
 footer p {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
 }
